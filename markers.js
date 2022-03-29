@@ -3,6 +3,7 @@
 
 const markers = [
     {
+        name: "A BÖLCSEK KÖVE NYOMÁBAN",
         url: "https://questhunter.hu/quests/harry-potter-a-bolcsek-kove-nyomaban/",
         address: "1077 BUDAPEST, ALMÁSSY UTCA 3.",
         coords: { lat: 47.5, lng: 19.06 },
@@ -16,6 +17,7 @@ const markers = [
         </div>`,
     },
     {
+        name: "INDIANA JONES ÉS AZ ELVESZETT PIRAMIS",
         url: "https://questhunter.hu/quests/indiana-jones-es-az-elveszett-piramis/",
         address: "BUDAPEST, PAULAY EDE U. 20, 1061",
         content: `<div>
@@ -28,6 +30,7 @@ const markers = [
         </div>`,
     },
     {
+        name: "A VARÁZSLÓ ISKOLA",
         url: "https://questhunter.hu/quests/a-varazslo-iskola/",
         address: "1066 BUDAPEST ZICHY JENŐ UTCA 27",
         content: `<div>
@@ -40,6 +43,7 @@ const markers = [
         </div>`,
     },
     {
+        name: "VARÁZSVILÁG -A TITKOK KAMRÁJA",
         url: "https://questhunter.hu/quests/varazsvilag-titkok-kamraja/",
         address: "1073 BUDAPEST ERZSÉBET KRT 17. 30-AS KAPUCSENGŐ",
         content: `<div class="ctext two-coltext">
@@ -52,6 +56,7 @@ const markers = [
         </div>`,
     },
     {
+        name: "ROXFORT ÉS A LEGENDÁS ÁLLATOK",
         url: "https://questhunter.hu/quests/az-alkimista/",
         address: "1066 BUDAPEST, ZICHY JENŐ UTCA 39.",
         content: `<div class="ctext two-coltext">
@@ -62,6 +67,7 @@ const markers = [
         </div>`,
     },
     {
+        name: "SHERLOCK",
         url: "https://questhunter.hu/quests/sherlock-szabaduloszoba/",
         address: "BUDAPEST, 1085 BUDAPEST, MÁRIA UTCA 29.",
         content: `<div class="ctext two-coltext">
@@ -74,6 +80,7 @@ const markers = [
         </div>`,
     },
     {
+        name: "HELYSZÍNELŐK/CSI",
         url: "https://questhunter.hu/quests/helyszinelok/",
         address: "BUDAPEST, 1085. - MÁRIA UTCA 29. - CSENGŐ: PÁNIQ-SZOBA",
         content: `<div class="ctext two-coltext">

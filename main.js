@@ -34,6 +34,7 @@ function addMarkerFromAddr(args) {
                 content: args.content,
                 url: args.url,
                 address: args.address,
+                name: args.name,
             });
         }
     });
@@ -52,7 +53,7 @@ function addMarker(args) {
 
     // info window options
     var infoWindowOptions = {
-        content: args.content + "<a target='_blank' href='" + args.url + "'>Több infó</a>" + "<p>Cím:<br>" + args.address + "</p>",
+        content: "<h2>" + args.name + "</h2>" + args.content + "<a target='_blank' href='" + args.url + "'>Több infó</a>" + "<p>Cím:<br>" + args.address + "</p>",
     };
 
     // adding info window
